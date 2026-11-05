@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Veeva61 · вайбкодер</title>
+  <meta name="description" content="Veeva61: вайбкодер. Порт Windows-игры на Android без Wine, моды для Unity-игр, 3D в Blender.">
+  <meta name="theme-color" content="#1c1825">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Veeva61 · вайбкодер">
+  <meta property="og:description" content="Порты игр на Android, моды и белые розы из Blender.">
+  <meta property="og:image" content="https://veeva61.github.io/assets/og.jpg">
+  <meta property="og:url" content="https://veeva61.github.io/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Marck+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true"></div>
+  <div class="feathers" aria-hidden="true"></div>
+
+  <nav class="nav" aria-label="Разделы">
+    <a class="nav__brand" href="#top">Veeva61</a>
+    <div class="nav__links">
+      <a href="#about">Обо мне</a>
+      <a href="#vibe">Вайбкодинг</a>
+      <a href="#projects">Проекты</a>
+      <a href="#stack">Стек</a>
+      <a href="#activity">Активность</a>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <img class="hero__bouquet hero__bouquet--left" src="assets/bouquet.webp" alt="" width="760" height="639">
+    <img class="hero__bouquet hero__bouquet--right" src="assets/bouquet.webp" alt="" width="760" height="639">
+
+    <div class="hero__inner">
+      <img class="portrait" src="https://github.com/Veeva61.png?size=460" alt="Аватар Veeva61 в рамке из белых роз" width="460" height="460">
+      <h1 class="hero__name">Veeva61</h1>
+      <p class="hero__sub">вайбкодер <span>✧</span> порты игр на Android <span>✧</span> моды</p>
+      <p class="hero__typing" aria-live="polite"><span class="typed">Не кусаюсь (почти)</span><span class="caret" aria-hidden="true"></span></p>
+      <div class="hero__actions">
+        <a class="btn btn--glow" href="https://github.com/Veeva61">GitHub</a>
+        <a class="btn" href="#projects">Проекты</a>
+      </div>
+    </div>
+
+    <a class="hero__scroll" href="#about" aria-label="Листать вниз"><span></span></a>
+  </header>
+
+  <main>
+    <section class="section" id="about">
+      <h2 class="title">Обо мне</h2>
+      <img class="divider" src="assets/divider.webp" alt="" width="1200" height="110">
+
+      <div class="about">
+        <ul class="facts">
+          <li class="card reveal"><b>Вайбкодер.</b> Придумываю, ставлю задачи ИИ и довожу до результата.</li>
+          <li class="card reveal">Порт Windows-игры на Android без Wine: <a href="https://github.com/Veeva61/Isaac-Android">Isaac Port</a>.</li>
+          <li class="card reveal">Загрузчики PE, эмуляция x86 → arm64, перевод OpenGL → OpenGL ES.</li>
+          <li class="card reveal">Боты на компьютерном зрении и моды для Unity-игр на IL2CPP.</li>
+          <li class="card reveal">3D в <b>Blender</b>: розы, рамки и перья на этом сайте оттуда.</li>
+          <li class="card reveal">Тестовый стенд: <b>Pixel 10 Pro</b>.</li>
+        </ul>
+        <figure class="emblem reveal">
+          <img src="assets/rose.webp" alt="Белая роза из Blender" width="420" height="373">
+          <figcaption>Не кусаюсь (почти)</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="vibe">
+      <h2 class="title">Вайбкодинг</h2>
+      <img class="divider" src="assets/divider.webp" alt="" width="1200" height="110">
+
+      <p class="lead reveal">Код пишет ИИ, а на мне всё остальное: идея, архитектура, проверка на настоящем телефоне и упрямство довести дело до конца.</p>
+
+      <ol class="flow reveal" aria-label="Как рождается проект">
+        <li><span class="flow__dot"></span>идея</li>
+        <li><span class="flow__dot"></span>промпт</li>
+        <li><span class="flow__dot"></span>Claude Code</li>
+        <li><span class="flow__dot"></span>проверка на Pixel 10 Pro</li>
+        <li><span class="flow__dot"></span>релиз</li>
+      </ol>
+
+      <div class="metrics">
+        <div class="card metric reveal"><span class="metric__label">Строк, набранных руками</span><span class="metric__value">подозрительно мало</span></div>
+        <div class="card metric reveal"><span class="metric__label">Промптов на одну фичу</span><span class="metric__value">от одного до «ну ещё разок»</span></div>
+        <div class="card metric reveal"><span class="metric__label">Игр, запущенных там, где не должны</span><span class="metric__value">одна, и это только начало</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <h2 class="title">Проекты</h2>
+      <img class="divider" src="assets/divider.webp" alt="" width="1200" height="110">
+
+      <article class="card feature reveal">
+        <div class="feature__head">
+          <h3><a href="https://github.com/Veeva61/Isaac-Android">Isaac Port</a></h3>
+          <p class="feature__tagline">The Binding of Isaac: Repentance+ на Android, без Wine</p>
+          <ul class="chips">
+            <li>свой загрузчик PE</li>
+            <li>своя реализация Win32</li>
+            <li>OpenGL → OpenGL ES</li>
+            <li>x86 на arm64 через box64</li>
+            <li>проверено на Pixel 10 Pro</li>
+          </ul>
+        </div>
+        <div class="shots">
+          <figure><img src="https://raw.githubusercontent.com/Veeva61/Isaac-Android/main/docs/screenshots/title.jpg" alt="Титульный экран" loading="lazy"><figcaption>титульный экран</figcaption></figure>
+          <figure><img src="https://raw.githubusercontent.com/Veeva61/Isaac-Android/main/docs/screenshots/gameplay.jpg" alt="Забег с экранным геймпадом" loading="lazy"><figcaption>экранный геймпад</figcaption></figure>
+          <figure><img src="https://raw.githubusercontent.com/Veeva61/Isaac-Android/main/docs/screenshots/mods-manager.jpg" alt="Менеджер модов" loading="lazy"><figcaption>менеджер модов</figcaption></figure>
+        </div>
+        <a class="btn btn--glow" href="https://github.com/Veeva61/Isaac-Android">Открыть репозиторий</a>
+      </article>
+
+      <h3 class="subtitle reveal">Моды для BRUTALISTICK VR</h3>
+      <div class="mods">
+        <a class="card mod reveal" href="https://github.com/Veeva61/ClimbAnything">
+          <span class="mod__name">ClimbAnything</span>
+          <span class="mod__text">Лазать по любой стене, уступу и потолку.</span>
+          <span class="mod__meta">C# · MelonLoader</span>
+        </a>
+        <a class="card mod reveal" href="https://github.com/Veeva61/GiantPlayer">
+          <span class="mod__name">GiantPlayer</span>
+          <span class="mod__text">Стать великаном: рост ×2, сила и здоровье ×10.</span>
+          <span class="mod__meta">C# · MelonLoader</span>
+        </a>
+        <a class="card mod reveal" href="https://github.com/Veeva61/LimbTear">
+          <span class="mod__name">LimbTear</span>
+          <span class="mod__text">Отрывать части тела NPC прямо руками.</span>
+          <span class="mod__meta">C# · MelonLoader</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section" id="stack">
+      <h2 class="title">Стек</h2>
+      <img class="divider" src="assets/divider.webp" alt="" width="1200" height="110">
+
+      <div class="stack reveal">
+        <img src="https://skillicons.dev/icons?i=c,cpp,cs,py,java,lua,cmake,git&perline=8&theme=dark" alt="C, C++, C#, Python, Java, Lua, CMake, Git" loading="lazy">
+        <img src="https://skillicons.dev/icons?i=androidstudio,unity,dotnet,blender,vscode,visualstudio,windows&perline=8&theme=dark" alt="Android Studio, Unity, .NET, Blender, VS Code, Visual Studio, Windows" loading="lazy">
+      </div>
+      <ul class="chips chips--center reveal">
+        <li>Android NDK</li><li>OpenGL ES</li><li>box64</li><li>OpenCV</li>
+        <li>Unity IL2CPP</li><li>BepInEx</li><li>MelonLoader</li>
+        <li>Claude Code</li><li>MCP</li><li>Blender MCP</li>
+      </ul>
+    </section>
+
+    <section class="section" id="activity">
+      <h2 class="title">Активность</h2>
+      <img class="divider" src="assets/divider.webp" alt="" width="1200" height="110">
+
+      <div class="card snake reveal">
+        <img src="https://raw.githubusercontent.com/Veeva61/Veeva61/output/github-snake-dark.svg" alt="Жемчужная змейка ползёт по сетке вкладов на GitHub" loading="lazy">
+      </div>
+      <p class="note reveal">Змейка собирается раз в 12 часов из настоящей сетки вкладов и ест каждый день с коммитами.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img class="footer__rose" src="assets/rose.webp" alt="" width="420" height="373">
+    <p class="footer__thanks">спасибо, что заглянул(а)</p>
+    <p class="footer__links">
+      <a href="https://github.com/Veeva61">github.com/Veeva61</a>
+    </p>
+    <p class="footer__small">сделано вайбкодингом с Claude Code · розы и перья отрендерены в Blender</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
